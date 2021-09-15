@@ -1,5 +1,13 @@
+:root {
+  --main-color: rgb(34, 42, 67);
+  --secondary-color: rgb(249, 250, 136);
+  --third-color: rgb(228, 140, 75);
+  --fourth-color:#01fe87;
+  --menu-speed: 0.75s;
+}
 body {
   margin: 0;
+  background-color: var(--main-color);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
