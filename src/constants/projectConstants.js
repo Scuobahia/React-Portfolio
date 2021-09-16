@@ -75,6 +75,4 @@ export const projects = [
   ];
   
   export const TimeLineData = [
-    { year: 2020, text: '', },
-    { year: 2021, text: '', },
   ];
