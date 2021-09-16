@@ -6,6 +6,7 @@ flex-direction: ${(props) => props.row ? "row" : "column" };
 padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
 margin: 0 auto;
 max-width: 1040px;
+font-family: 'Special Elite', cursive;
 box-sizing: content-box;
 position: relative;
 overflow: hidden;
