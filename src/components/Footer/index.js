@@ -2,11 +2,24 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { Form, CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
     <FooterWrapper>
+       <Form>
+       <label for="name">Your Name</label>
+      <input type="text" name="name" />
+  
+      <label for="email">Email</label>
+      <input type="text" name="email" placeholder="Email@example.com" />
+
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Reach Out!"></textarea>
+  
+      <input type="submit" value="Submit" />
+      </Form>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>

@@ -7,7 +7,7 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionTitle>A little something about me...</SectionTitle>
     <SectionText>
-    Hey there! I graduated from the University of Utah coding bootcamp as a full stack developer. Aside from creating cool websites 
+    Hey there! I graduated from the University of Utah coding bootcamp as a full stack developer. Aside from creating cool websites like
     the ones you just had the pleasure of browsing through
     (which there is plenty more on the way) I balance a chaotic and comforting family life.
     I have a beatiful wife and four incredible children.

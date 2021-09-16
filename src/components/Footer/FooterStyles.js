@@ -1,4 +1,7 @@
 import styled from "styled-components"
+ export const Form = styled.section`
+ 
+ `
 
 export const FooterWrapper = styled.section`
 	width: calc(100vw - 96px);
