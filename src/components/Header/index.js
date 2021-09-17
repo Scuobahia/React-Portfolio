@@ -1,27 +1,36 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai';
-import { Container, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
-
+import { Container, DivT, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import Fade from 'react-reveal/Fade';
 const Header = () =>  (
   <Container>
+    <DivT>
+      <Link href="/">
+        <a style={{ display: 'flex', alignItems: 'center', color:"rgb(249, 250, 136)", textDecoration:"none", }}>
+           <span>Antonio Sanchez</span>
+        </a>
+      </Link>
+    </DivT>
     {/* Tabs for the Header Menu */}
     <Div2>
+      <Fade left big>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
-        </Link>
-      </li>        
-      <li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
       </li>        
+      <li>
+        <Link href="#contact">
+          <NavLink>Contact</NavLink>
+        </Link>
+      </li>   
+      </Fade>     
     </Div2>
       <Div3>
         <SocialIcons href="https://github/Scuobahia.com">

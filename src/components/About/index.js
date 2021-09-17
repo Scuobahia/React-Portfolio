@@ -4,7 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../Styles/PageComponents'
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './AboutStyles';
 
 const Technologies = () =>  (
-  <Section id="tech">
+  <Section id="about">
     <SectionTitle>A little something about me...</SectionTitle>
     <SectionText>
     Hey there! I graduated from the University of Utah coding bootcamp as a full stack developer. Aside from creating cool websites like

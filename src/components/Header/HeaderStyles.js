@@ -9,6 +9,15 @@ export const Container = styled.div`
   padding: 1rem;
   padding-top: 2rem;
 `;
+export const DivT = styled.div`
+  grid-area: 1 / 1 / 2 / 2;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 3rem;
+
+`
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;

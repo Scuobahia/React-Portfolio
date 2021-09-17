@@ -4,7 +4,7 @@ import { Div, Form, Label, Button, } from './ContactStyles';
 function Contact() {
 
     return (
-        <Section>
+        <Section id="contact">
             <SectionTitle></SectionTitle>
             <Div>
                 <SectionText>Please Reach Out:</SectionText>
