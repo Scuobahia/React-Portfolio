@@ -1,12 +1,13 @@
-import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai';
 import { Container, DivT, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 import Fade from 'react-reveal/Fade';
+import {Link} from 'react-router-dom';
 const Header = () =>  (
+ 
   <Container>
     <DivT>
-      <Link href="/">
+      <Link className ="LinksS" to="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"rgb(249, 250, 136)", textDecoration:"none" }}>
            <span>Antonio Sanchez</span>
         </a>
@@ -16,17 +17,17 @@ const Header = () =>  (
     <Div2>
       <Fade left big>
       <li>
-        <Link href="#projects">
+        <Link className ="LinksS" to="/projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
+        <Link className ="LinksS" to="/about">
           <NavLink>About</NavLink>
         </Link>
       </li>        
       <li>
-        <Link href="#contact">
+        <Link className ="LinksS" to="/contact">
           <NavLink>Contact</NavLink>
         </Link>
       </li>   

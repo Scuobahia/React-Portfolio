@@ -4,18 +4,25 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
-    <div>
-      <Header></Header>
-      <Hero></Hero>
-      <main>
-        <Projects></Projects>
-        <About></About>
-      </main>
-      <Contact></Contact>
-      <Footer></Footer>
-    </div>
+    <Router>
+
+      <div>
+        <Header></Header>
+        <Hero></Hero>
+        <main>
+          <Switch>
+          <Route path='/Projects' component={Projects} />
+          <Route path="/About" component={About} />
+          <Route path="/Contact" component={Contact} />
+          </Switch>
+        </main>
+        <Footer></Footer>
+      </div>
+
+    </Router>
   );
 }
 // onclick event 
