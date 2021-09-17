@@ -3,6 +3,7 @@ import React from 'react';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionTitle } from '../../Styles/PageComponents';
 import { projects } from '../../constants/projectConstants';
+
 const Projects = () => (
   <Section nopadding id="projects">
   

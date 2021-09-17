@@ -7,7 +7,7 @@ const Header = () =>  (
   <Container>
     <DivT>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color:"rgb(249, 250, 136)", textDecoration:"none", }}>
+        <a style={{ display: 'flex', alignItems: 'center', color:"rgb(249, 250, 136)", textDecoration:"none" }}>
            <span>Antonio Sanchez</span>
         </a>
       </Link>

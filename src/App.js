@@ -18,5 +18,5 @@ function App() {
     </div>
   );
 }
-
+// onclick event 
 export default App;
