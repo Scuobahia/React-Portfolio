@@ -11,12 +11,12 @@ function App() {
 
       <div>
         <Header></Header>
-        <Hero></Hero>
         <main>
           <Switch>
-          <Route path='/Projects' component={Projects} />
-          <Route path="/About" component={About} />
-          <Route path="/Contact" component={Contact} />
+          <Route exact path='/' component={Hero} />
+          <Route exact path='/Projects' component={Projects} />
+          <Route exact path="/About" component={About} />
+          <Route exact path="/Contact" component={Contact} />
           </Switch>
         </main>
         <Footer></Footer>
