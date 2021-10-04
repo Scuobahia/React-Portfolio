@@ -10,7 +10,7 @@ export const projects = [
       id: 0,
     },
     {
-      title: 'Read Me Generator',
+      title: 'Philanthropy-and-me',
       description:"Application that generates a README file for repositories. ",
       image: '/images/readme.png',
       tags: ['Node.js', 'JavaScript'],
