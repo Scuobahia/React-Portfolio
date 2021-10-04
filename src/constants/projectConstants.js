@@ -11,9 +11,9 @@ export const projects = [
     },
     {
       title: 'Philanthropy-and-me',
-      description:"Application that generates a README file for repositories. ",
-      image: '/images/readme.png',
-      tags: ['Node.js', 'JavaScript'],
+      description:"Website for charity purposes. ",
+      image: '/images/charity.png',
+      tags: ['React','Css', 'JavaScript'],
       source: 'https://google.com',
       code: 'https://github.com/Scuobahia/read-me-generator',
       id: 1,
